@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- Background -->
-    <div class="flex flex-col items-center h-full md:h-screen bg-sky-900">
+    <div class="flex flex-col items-center min-h-screen bg-sky-900">
       <!-- Tailwind SVG -->
       <div class="flex flex-col justify-center p-8">
         <svg
@@ -32,6 +32,13 @@
         <h1 class="text-center text-sm text-white pt-2 pl-4 font-mono">
           Mini projects
         </h1>
+        <p
+          class="text-white my-4 max-w-xs md:max-w-md bg-slate-700 rounded-md p-6"
+        >
+          My name is Martin Soengas. I've made some projects to learn and
+          practice Tailwind CSS, a great framework that makes using CSS classes
+          very simple
+        </p>
       </div>
 
       <!-- Content -->
@@ -52,7 +59,15 @@
               alt=""
               class="object-fit h-80 md:h-64 tranform hover:scale-110 duration-500 hover:rounded-xl"
             />
-            <h1 class="font-sans text-slate-300">Project: "Email Subscribe"</h1>
+            <div class="p-3 max-w-xs max-h-full">
+              <h1 class="font-light text-slate-300 text-center">
+                Project: "Email Subscribe"
+              </h1>
+              <p class="text-white my-4 tracking-wider font-medium">
+                A simple card, that can be used as a modal to get a subscription
+                from the user.
+              </p>
+            </div>
             <a
               href="./email-subscribe/index.html"
               class="px-5 py-3 text-xs text-center rounded-md text-zinc-800 bg-sky-500 hover:bg-sky-700 hover:text-white duration-500"
@@ -70,11 +85,19 @@
               Preview
             </div>
             <img
-              src="./assets/img/email.jpg"
+              src="./assets/img/pricing.jpg"
               alt=""
               class="object-fit h-80 md:h-64 tranform hover:scale-110 duration-500 hover:rounded-xl"
             />
-            <h1 class="font-sans text-slate-300">Project: "Email Subscribe"</h1>
+            <div class="p-3 max-w-xs max-h-full">
+              <h1 class="font-light text-slate-300 text-center">
+                Project: "Pricing"
+              </h1>
+              <p class="text-white my-4 tracking-wider font-medium">
+                Simple cards that work as information about pricing of a service
+                or subscription.
+              </p>
+            </div>
             <a
               href="./pricing-cards/index.html"
               class="px-5 py-3 text-xs text-center rounded-md text-zinc-800 bg-sky-500 hover:bg-sky-700 hover:text-white duration-500"
@@ -84,27 +107,6 @@
           </div>
         </div>
         <!-- item 3 -->
-        <div
-          class="p-4 rounded-2xl border border-blue-900 shadow-slate-900 shadow-md bg-sky-800"
-        >
-          <div class="flex flex-col relative">
-            <div class="absolute p-4 md:p-2 text-slate-400 text-xs">
-              Preview
-            </div>
-            <img
-              src="./assets/img/email.jpg"
-              alt=""
-              class="object-fit h-80 md:h-64 tranform hover:scale-110 duration-500 hover:rounded-xl"
-            />
-            <h1 class="font-sans text-slate-300">Project: "Email Subscribe"</h1>
-            <a
-              href="./email-subscribe/index.html"
-              class="px-5 py-3 text-xs text-center rounded-md text-zinc-800 bg-sky-500 hover:bg-sky-700 hover:text-white duration-500"
-            >
-              Go to project!
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </body>
